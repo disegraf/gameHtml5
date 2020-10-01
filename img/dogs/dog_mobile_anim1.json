@@ -1,0 +1,168 @@
+{
+    "anims": [
+        {
+            "key": "run1",
+            "type": "frames",
+            "repeat": -1,
+            "frameRate": 24,
+            "frames": [
+                {
+                    "key": "dog1",
+                    "frame": "dog01_0"
+                  },
+                  {
+                    "key": "dog1",
+                    "frame": "dog01_1"
+                  },
+                  {
+                    "key": "dog1",
+                    "frame": "dog01_2"
+                  },
+                  {
+                    "key": "dog1",
+                    "frame": "dog01_3"
+                  },
+                  {
+                    "key": "dog1",
+                    "frame": "dog01_4"
+                  },
+                  {
+                    "key": "dog1",
+                    "frame": "dog01_5"
+                  },
+                  {
+                    "key": "dog1",
+                    "frame": "dog01_6"
+                  },
+                  {
+                    "key": "dog1",
+                    "frame": "dog01_7"
+                  },
+                  {
+                    "key": "dog1",
+                    "frame": "dog01_8"
+                  },
+                  {
+                    "key": "dog1",
+                    "frame": "dog01_9"
+                  },
+                  {
+                    "key": "dog1",
+                    "frame": "dog01_10"
+                  },
+                  {
+                    "key": "dog1",
+                    "frame": "dog01_11"
+                  },
+                  {
+                    "key": "dog1",
+                    "frame": "dog01_12"
+                  },
+                  {
+                    "key": "dog1",
+                    "frame": "dog01_13"
+                  },
+                  {
+                    "key": "dog1",
+                    "frame": "dog01_14"
+                  },
+                  {
+                    "key": "dog1",
+                    "frame": "dog01_15"
+                  },
+                  {
+                    "key": "dog1",
+                    "frame": "dog01_16"
+                  },
+                  {
+                    "key": "dog1",
+                    "frame": "dog01_17"
+                  },
+                  {
+                    "key": "dog1",
+                    "frame": "dog01_18"
+                  },
+                  {
+                    "key": "dog1",
+                    "frame": "dog01_19"
+                  },
+                  {
+                    "key": "dog1",
+                    "frame": "dog01_20"
+                  },
+                  {
+                    "key": "dog1",
+                    "frame": "dog01_21"
+                  },
+                  {
+                    "key": "dog1",
+                    "frame": "dog01_22"
+                  },
+                  {
+                    "key": "dog1",
+                    "frame": "dog01_23"
+                  },
+                  {
+                    "key": "dog1",
+                    "frame": "dog01_24"
+                  },
+                  {
+                    "key": "dog1",
+                    "frame": "dog01_25"
+                  },
+                  {
+                    "key": "dog1",
+                    "frame": "dog01_26"
+                  },
+                  {
+                    "key": "dog1",
+                    "frame": "dog01_27"
+                  },
+                  {
+                    "key": "dog1",
+                    "frame": "dog01_28"
+                  },
+                  {
+                    "key": "dog1",
+                    "frame": "dog01_29"
+                  },
+                  {
+                    "key": "dog1",
+                    "frame": "dog01_30"
+                  },
+                  {
+                    "key": "dog1",
+                    "frame": "dog01_31"
+                  },
+                  {
+                    "key": "dog1",
+                    "frame": "dog01_32"
+                  },
+                  {
+                    "key": "dog1",
+                    "frame": "dog01_33"
+                  },
+                  {
+                    "key": "dog1",
+                    "frame": "dog01_34"
+                  },
+                  {
+                    "key": "dog1",
+                    "frame": "dog01_35"
+                  },
+                  {
+                    "key": "dog1",
+                    "frame": "dog01_36"
+                  },
+                  {
+                    "key": "dog1",
+                    "frame": "dog01_37"
+                  },
+                  {
+                    "key": "dog1",
+                    "frame": "dog01_38"
+                  }
+            ]
+        }
+    ]
+}

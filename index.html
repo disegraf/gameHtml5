@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+	
+
+	<script src="js/phaser.min.js"></script>
+
+	<title>Hello, world!</title>
+	<style>
+		html,
+		body
+		{
+			position: relative;
+			margin: 0;
+			padding: 0;
+			width: 100%;
+			height: 100%;
+		}
+		#phaser-container {
+			width: 100%;
+			height: 100%;
+			background-color: aliceblue;
+			position: absolute;/**/
+			display: block;
+		}
+		#phaser-container canvas {
+			width: 100%;
+			height: 100%;
+			/*object-fit: contain;
+			 display:block;
+                margin: 0;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);*/
+		}
+		
+		.grayScale canvas {
+		    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  			filter: grayscale(100%);
+		}
+		.tesyt{
+				
+		}
+        .container-all
+        {
+            width: 100%;
+            height: 100%;
+            position: relative;
+        }
+	</style>
+
+</head>
+
+<body>
+    <div class="container-all" >
+        <div id="phaser-container" class=""></div>
+    </div>
+
+	<!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script>
+	var canvasGame;
+	</script>
+	
+	<script src="js/gameCarga.js"></script>	
+	<script src="js/gameScene.js"></script>
+	<script src="js/panelGanadorFinal.js"></script>
+	<script src="js/chooseDog.js"></script>
+
+<script>
+	var config = {
+		width: 1200,
+		height: 900,
+		parent: "phaser-container",
+		type: Phaser.CANVAS,
+		scale: {
+			mode: Phaser.Scale.RESIZE,
+		},
+		physics: {
+			default: 'arcade',
+			arcade: {
+				gravity: {
+					y: 300
+				},
+				debug: true
+			}
+		},
+		backgroundColor: '#565656',
+		scene: [ Carga,panelChooseDog,juego,panelGanadorFinal ]
+	};
+	var game = new Phaser.Game( config );
+</script>
+	
+<script>	
+function ajustePantalla()
+{
+	if(detectExitFullScreen)
+   {
+		if(!gameScale.isFullscreen)
+		{
+			$("#phaser-container").css({ "height": "100%", "width": "100%" });
+			detectExitFullScreen=false;
+		}
+
+   }
+}
+////////////////////////////responsivesFunctions/////////////////////////////////
+function backgroundCover(objImagen)
+{
+	var aspectRatio=canvasGame.width() / canvasGame.height();
+	var imgAspect=objImagen.width/objImagen.height;
+	if(aspectRatio>imgAspect)
+	{
+		objImagen.setScale(canvasGame.width()/objImagen.width);
+		//console.log("horizontal");
+	}
+	else
+	{
+		objImagen.setScale(canvasGame.height()/objImagen.height);
+		//console.log("vertical");
+	}
+	objImagen.setPosition(canvasGame.width()/2, canvasGame.height()/2);
+}	
+function leftPer($percent)
+{
+	return $percent*canvasGame.width() / 100;
+}
+function topPer($percent)
+{
+	return $percent*canvasGame.height() / 100;
+}
+function imagenPer(objImagen)
+{
+	objImagen.setScale(canvasGame.width()/this.game.config.width);
+}
+function widthPer(percent,minWidht,maxWidth)//porcentajes no scale
+{
+	var widthFinal=percent*canvasGame.width() / 100;
+	var minFinal=minWidht*this.game.config.width / 100;
+	var maxFinal=maxWidth*this.game.config.width / 100;
+	if(widthFinal<minFinal)
+    {
+		widthFinal=minFinal;
+		
+    }
+	if(widthFinal>maxFinal)
+   {
+	   widthFinal=maxFinal;
+   }
+	
+	return widthFinal;
+	
+}
+////////////////////////////responsivesFunctions/////////////////////////////////	
+function responsiveImage(objImagen,$minScale,$maxScale,$leftPer,$topPer)
+{
+	var newScale=canvasGame.width()/this.game.config.width;
+	var newLeft=$leftPer*canvasGame.width() / 100;
+	var newTop=$topPer*canvasGame.height() / 100;
+	if(newScale<$minScale)
+	{
+	   newScale=$minScale;
+	}
+	if(newScale>$maxScale)
+	{
+	   newScale=$maxScale;
+	}
+	if($leftPer!=0)
+  	{
+		objImagen.setX($leftPer*canvasGame.width() / 100)
+	}
+	if($topPer!=0)
+  	{
+		objImagen.setY($topPer*canvasGame.height() / 100)
+	}
+	objImagen.setScale(newScale);
+}
+function containerResponsive(container,minScale,maxScale,leftPer,topPer)
+{
+
+}
+////////////////////////////responsivesFunctions/////////////////////////////////	
+	
+function poscionar(array)
+{
+	return array.sort();
+}
+</script>
+</body>
+
+</html>

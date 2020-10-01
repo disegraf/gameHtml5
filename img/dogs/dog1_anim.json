@@ -1,0 +1,168 @@
+{
+    "anims": [
+        {
+            "key": "run1",
+            "type": "frames",
+            "repeat": -1,
+            "frameRate": 24,
+            "frames": [
+                {
+                    "key": "dog1",
+                    "frame": "dog01__0000_dog010000.bmp"
+                },
+                {
+                    "key": "dog1",
+                    "frame": "dog01__0001_dog010001.bmp"
+                },
+                {
+                    "key": "dog1",
+                    "frame": "dog01__0002_dog010002.bmp"
+                },
+                {
+                    "key": "dog1",
+                    "frame": "dog01__0003_dog010003.bmp"
+                },
+                {
+                    "key": "dog1",
+                    "frame": "dog01__0004_dog010004.bmp"
+                },
+                {
+                    "key": "dog1",
+                    "frame": "dog01__0005_dog010005.bmp"
+                },
+                {
+                    "key": "dog1",
+                    "frame": "dog01__0006_dog010006.bmp"
+                },
+                {
+                    "key": "dog1",
+                    "frame": "dog01__0007_dog010007.bmp"
+                },
+                {
+                    "key": "dog1",
+                    "frame": "dog01__0008_dog010008.bmp"
+                },
+                {
+                    "key": "dog1",
+                    "frame": "dog01__0009_dog010009.bmp"
+                },
+                {
+                    "key": "dog1",
+                    "frame": "dog01__0010_dog010010.bmp"
+                },
+                {
+                    "key": "dog1",
+                    "frame": "dog01__0011_dog010011.bmp"
+                },
+                {
+                    "key": "dog1",
+                    "frame": "dog01__0012_dog010012.bmp"
+                },
+                {
+                    "key": "dog1",
+                    "frame": "dog01__0013_dog010013.bmp"
+                },
+                {
+                    "key": "dog1",
+                    "frame": "dog01__0014_dog010014.bmp"
+                },
+                {
+                    "key": "dog1",
+                    "frame": "dog01__0015_dog010015.bmp"
+                },
+                {
+                    "key": "dog1",
+                    "frame": "dog01__0016_dog010016.bmp"
+                },
+                {
+                    "key": "dog1",
+                    "frame": "dog01__0017_dog010017.bmp"
+                },
+                {
+                    "key": "dog1",
+                    "frame": "dog01__0018_dog010018.bmp"
+                },
+                {
+                    "key": "dog1",
+                    "frame": "dog01__0019_dog010019.bmp"
+                },
+                {
+                    "key": "dog1",
+                    "frame": "dog01__0020_dog010020.bmp"
+                },
+                {
+                    "key": "dog1",
+                    "frame": "dog01__0021_dog010021.bmp"
+                },
+                {
+                    "key": "dog1",
+                    "frame": "dog01__0022_dog010022.bmp"
+                },
+                {
+                    "key": "dog1",
+                    "frame": "dog01__0023_dog010023.bmp"
+                },
+                {
+                    "key": "dog1",
+                    "frame": "dog01__0024_dog010024.bmp"
+                },
+                {
+                    "key": "dog1",
+                    "frame": "dog01__0025_dog010025.bmp"
+                },
+                {
+                    "key": "dog1",
+                    "frame": "dog01__0026_dog010026.bmp"
+                },
+                {
+                    "key": "dog1",
+                    "frame": "dog01__0027_dog010027.bmp"
+                },
+                {
+                    "key": "dog1",
+                    "frame": "dog01__0028_dog010028.bmp"
+                },
+                {
+                    "key": "dog1",
+                    "frame": "dog01__0029_dog010029.bmp"
+                },
+                {
+                    "key": "dog1",
+                    "frame": "dog01__0030_dog010030.bmp"
+                },
+                {
+                    "key": "dog1",
+                    "frame": "dog01__0031_dog010031.bmp"
+                },
+                {
+                    "key": "dog1",
+                    "frame": "dog01__0032_dog010032.bmp"
+                },
+                {
+                    "key": "dog1",
+                    "frame": "dog01__0033_dog010033.bmp"
+                },
+                {
+                    "key": "dog1",
+                    "frame": "dog01__0034_dog010034.bmp"
+                },
+                {
+                    "key": "dog1",
+                    "frame": "dog01__0035_dog010035.bmp"
+                },
+                {
+                    "key": "dog1",
+                    "frame": "dog01__0036_dog010036.bmp"
+                },
+                {
+                    "key": "dog1",
+                    "frame": "dog01__0037_dog010037.bmp"
+                },
+                {
+                    "key": "dog1",
+                    "frame": "dog01__0038_dog010038.bmp"
+                }
+            ]
+        }
+    ]
+}
